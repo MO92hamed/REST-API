@@ -1,0 +1,24 @@
+GET http://localhost:3000/posts
+
+###
+POST  http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "REST API",
+    "description": "rest api 2022"
+
+}
+
+###
+GET   http://localhost:3000/posts/6267fb748ce1485bb0e21c96
+
+###
+DELETE  http://localhost:3000/posts/6267fb748ce1485bb0e21c96
+
+###
+PATCH http://localhost:3000/posts/6267fb748ce1485bb0e21c96
+Content-Type: application/json
+{
+    "title": "learning REST API"
+}
